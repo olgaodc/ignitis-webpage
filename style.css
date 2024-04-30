@@ -195,5 +195,39 @@ a {
   color: #b6bccb;
 }
 
+@media (max-width: 884px) {
+  .content-wrapper {
+    padding: 40px 60px 60px;
+  }
+
+  .email-info-text {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 653px) {
+  .content-wrapper {
+    padding: 40px 40px 40px;
+  }
+
+  .container {
+    padding: 0 25px;
+  }
+
+  .header {
+    padding: 28px 0 10px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 553px) {
+  .content-wrapper {
+    padding: 0 0 20px;
+  }
+}
+
 
 
