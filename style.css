@@ -127,6 +127,7 @@ a {
   font-weight: var(--text-weight-2);
   display: flex;
   align-items: center;
+  gap: var(--spacing-1);
   transition: all 0.3s;
 }
 
@@ -148,7 +149,6 @@ a {
 }
 
 .link-text {
-  padding-left: var(--spacing-1);
   transition: all 0.3s;
 }
 
@@ -194,7 +194,7 @@ a {
 
 .email-info-text {
   max-width: 560px;
-  margin: 20px auto 0;
+  margin: var(--spacing-3) auto 0;
   text-align: center;
   font-size: 13px;
   color: #b6bccb;
@@ -202,7 +202,7 @@ a {
 
 @media (max-width: 884px) {
   .content-wrapper {
-    padding: 40px 60px 60px;
+    padding: var(--spacing-7) 60px 60px;
   }
 
   .email-info-text {
@@ -212,7 +212,7 @@ a {
 
 @media (max-width: 653px) {
   .content-wrapper {
-    padding: 40px 40px 40px;
+    padding: var(--spacing-7) var(--spacing-7) var(--spacing-7);
   }
 
   .container {
@@ -230,7 +230,7 @@ a {
 
 @media (max-width: 553px) {
   .content-wrapper {
-    padding: 0 0 20px;
+    padding: 0 0 var(--spacing-3);
   }
 }
 
