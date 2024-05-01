@@ -88,6 +88,10 @@ a {
   margin: 0 0 var(--spacing-3);
 }
 
+#more {
+  display: none;
+}
+
 .section-button {
   width: 160px;
   background-color: var(--button-color);
